@@ -1,5 +1,5 @@
 x = 12
-y = 1
+y = 2
 
 def add(a,b):
   return a+b

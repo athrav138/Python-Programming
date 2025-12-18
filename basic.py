@@ -25,4 +25,5 @@ while True:
     print("Division:",division(x,y))
   else:
     print("Invalid operation.")
+    break
 

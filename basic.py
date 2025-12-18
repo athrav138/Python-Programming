@@ -13,10 +13,16 @@ def multiply(a,b):
 def division(a,b):
   return a/b
 
-print("Addition:",add(x,y))
-print("Subtraction:",subtract(x,y))
-print("Multiplication:",multiply(x,y))
-print("Division:",division(x,y))
-
-
+while True:
+  operation = input("Enter operation name: (add,subtract,multiply,division):")
+  if operation == 'add':
+    print("Addition:",add(x,y))
+  elif operation == 'subtract':
+    print("Subtraction:",subtract(x,y))
+  elif operation == 'multiply':
+    print("Multiplication:",multiply(x,y))
+  elif operation == 'division':
+    print("Division:",division(x,y))
+  else:
+    print("Invalid operation.")
 

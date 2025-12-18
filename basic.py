@@ -1,5 +1,5 @@
-x = 12
-y = 2
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
 
 def add(a,b):
   return a+b

@@ -1,16 +1,9 @@
+n = int(input("Enter size of array: "))
 
-array = [1,2,3,4,5]
+array = []
 
-for i in range(5):
-  print(array[i])
+for i in range(n):
+    value = int(input("Enter value: "))
+    array.append(value)
 
 print(array)
-
-array1 = {1,2,3,4,5}
-
-for i in array1:
-  print(i)
-
-print(array1)
-
-

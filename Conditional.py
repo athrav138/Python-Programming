@@ -13,3 +13,7 @@ if num%2==0 :
 else :
   print("Odd")
 
+if n==12 :
+  print("the number is: 12")
+
+  

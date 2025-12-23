@@ -1,0 +1,16 @@
+num = int(input("Enter number: "))
+
+if num>0 :
+  if num % 2 == 0 :
+    print(num," is the positive even number.")
+  else :
+    print(num," is the positive odd number.")
+elif num<0 :
+  if num % 2 == 0 :
+    print(num," is the negative even number.")
+  else :
+    print(num," is the negative odd number.")
+else :
+  print("The number is zero")
+
+

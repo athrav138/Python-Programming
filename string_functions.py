@@ -1,9 +1,18 @@
-#THese are the working of the different different string funcitons
+string = "my name is atharv rucha"
 
-string = "my name is Atharv"
+# Check if string ends with given word (case-sensitive)
+print("Ends with 'rucha':", string.endswith("rucha"))
 
-# Its check the given string is ends with the given string or not
-# Its a case sensitive function
+# Capitalize first character of the string
+print("Capitalized string:", string.capitalize())
 
-print("Ends with: ",string.endswith('atharv'))
+# Replace character 'a' with 'o'
+string = string.replace('a', 'o')
+print("After replace:", string)
 
+# Used to find the specific string in the another string
+
+print(string.find('rucho'))
+
+# print the count of substring occurance
+print(string.count('o'))

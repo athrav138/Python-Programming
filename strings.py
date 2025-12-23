@@ -14,3 +14,8 @@ slice1 = first_name[:3]
 slice2 = first_name[0:]
 print(slice)
 
+# slicing using the negative indexing
+
+slice3 = first_name[-(len(first_name)):-1]
+print(slice3)
+

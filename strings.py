@@ -19,3 +19,9 @@ print(slice)
 slice3 = first_name[-(len(first_name)):-1]
 print(slice3)
 
+slice4 = last_name[-6:-1]
+
+#   S   u    r  y  a  v  a  n  s  h  i
+# -11  -10  -9 -8 -7 -6 -5 -4 -3 -2 -1
+
+print(slice4)

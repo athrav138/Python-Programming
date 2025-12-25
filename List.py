@@ -1,7 +1,6 @@
 
 name = ["Atharv","Rucha","Milind","Sujata","Chabutai","Tukaram"]
 
-"""
 for i in name :
   print(i)
 
@@ -45,7 +44,6 @@ name1.insert(4,"hello")
 name1.insert(3,45)
 name1.insert(1,45.23)
 print(name1)
-"""
 name1 = ["Mango","Apple","Banana","Orange","Coconut","Rucha","Pineapple"]
 
 # Poping form the list

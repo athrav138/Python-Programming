@@ -7,7 +7,7 @@ for i in name :
 
 for i in range(len(name)):
   print(name[i])
-"""
+
 
 name[1] = "Aps"
 
@@ -43,7 +43,19 @@ print(name1)
 name1.insert(5,12)
 name1.insert(4,"hello")
 name1.insert(3,45)
+name1.insert(1,45.23)
+print(name1)
+"""
+name1 = ["Mango","Apple","Banana","Orange","Coconut","Rucha","Pineapple"]
+
+# Poping form the list
+name1.pop() # removes the last element
+name1.pop(2) # removes the element at index 2
+
 print(name1)
 
+# Remove from the list
+name1.remove("Rucha")
+print(name1)
 
 

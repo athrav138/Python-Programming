@@ -8,11 +8,14 @@ print(set)
 
 # methods of the sets
 
-set.add(34);
+# to add the element in the set
+set.add(34)
 print(set)
 
+# to delete the particular element in the set
 set.remove(34)
 print(set)
 
-set.pop(-3)
+# to delete the first element in the set
+set.pop()
 print(set)

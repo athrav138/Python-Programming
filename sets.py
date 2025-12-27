@@ -7,3 +7,12 @@ for i in set :
 print(set)
 
 # methods of the sets
+
+set.add(34);
+print(set)
+
+set.remove(34)
+print(set)
+
+set.pop(-3)
+print(set)

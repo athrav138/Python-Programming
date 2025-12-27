@@ -8,7 +8,9 @@ student_marks = {
 }
 
 print(student_marks)
-
+student_marks["Atharv"] = 95.88
+print(student_marks["Atharv"])
+"""
 # methods on the dictionary
 
 # prints the all items in the dictionary
@@ -32,8 +34,11 @@ student_marks.values()
 print("The size of the dictionary is: ",student_marks.__sizeof__())
 
 
+
 # deletes the all the data int the dictionary 
 student_marks.clear()
 print(student_marks)
 
+"""
 
+print(student_marks.keys())

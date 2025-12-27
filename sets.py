@@ -1,5 +1,5 @@
 set = set()   # empty set
-set = {1,2,34,5,23,} # sets
+set = {1,245,234,231,13,-3,3,-3,-334,5,23,} # sets
 
 for i in set :
   print(i)

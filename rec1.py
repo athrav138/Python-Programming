@@ -18,13 +18,13 @@ def print2(n):
 #print(print2(n))
 
 # To print the 1 to n numbers
-def print1(s,n):
+def print1(n,s=1):
   
   if s==n :return n
   print(s)
   return print1(s+1,n)
 
-#print(print1(1,n))
+#print(print1(n))
 
 # To print the sum of 1 to n
 def sum_n(n):
@@ -36,7 +36,7 @@ def sum_n(n):
 
 
 # To print the element in the list
-def print_list_element(list,idx):
+def print_list_element(list,idx=0):
   if(idx==len(list)):
     return
   print(list[idx])
@@ -44,5 +44,5 @@ def print_list_element(list,idx):
 
 list = [1,2,3,4,5,6,7,8,9,10]
 
-print_list_element(list,0)
+print_list_element(list)
    

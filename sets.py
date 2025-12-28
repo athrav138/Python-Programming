@@ -4,7 +4,9 @@ set = {1,245,234,231,13,-3,3,-3,-334,5,23,} # sets
 for i in set :
   print(i)
 
-print(set)
+print(set) # duplicate values are ignored
+print(type(set))
+print(len(set))
 
 # methods of the sets
 

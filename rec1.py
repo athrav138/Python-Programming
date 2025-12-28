@@ -9,7 +9,7 @@ n = int(input("ENter the number: "))
 
 def print2(n):
     if n == 0:
-        return -1
+        return 
     print(n)
     print2(n - 1)
 

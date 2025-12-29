@@ -1,10 +1,6 @@
-
 f = open("hello.txt","w")
-f.write("HELLO WORLD")
-f.close()
-
-f = open("hello.txt","r")
-data = f.read()
-print(type(data))
-print(data)
+f.write("HELLO WORLD\n")
+f.write("atharv milind suryavanshi\n")
+f.write("racer\n")
+f.write("Camlin")
 f.close()

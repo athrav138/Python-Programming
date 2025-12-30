@@ -4,7 +4,7 @@ with open("practice.txt","r") as f :
 
   while got :
     data = f.readline()
-    if data.find('learning') != -1:
+    if 'learning' in data:
       print("The word learning is fount at line: ",count)
       got = False
       break

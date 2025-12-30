@@ -7,5 +7,6 @@ class Student:
   def display(self):
     print(self.name)
 
+
 s1 = Student("Atharv Milind Suryavanshi")
 s1.display()

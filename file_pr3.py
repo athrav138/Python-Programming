@@ -1,8 +1,8 @@
 with open("practice.txt","r") as f :
-  data = [int(f.read())]
-  count=0
-  for i in data :
-    if(i%2==0):
-      count+=1
-
-  print(count)
+  data = f.read()
+  data1 = data.split(',')
+  print(data1)
+  for i in range(len(data1)):
+      data1[i] = int(data1[i])
+  print(data1)
+  #print(count)

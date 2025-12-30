@@ -1,17 +1,1 @@
-Hi everyone 
-we are  file input ouput
-Using python
-I like Programming in python.
-Hi everyone 
-we are  file input ouput
-Using python
-I like Programming in python.Hi everyone 
-we are learning file input ouput
-Using python
-I like Programming in python.Hi everyone 
-we are learning file input ouput
-Using python
-I like Programming in python.Hi everyone 
-we are learning file input ouput
-Using python
-I like Programming in python.
+1,2,3,4,45,65,34,6,2434,45,2

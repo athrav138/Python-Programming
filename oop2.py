@@ -3,6 +3,7 @@ class Student :
     self.name = name
     self.m1 = m1
     self.m2 = m2
+    
     self.m3 = m3
 
   @staticmethod

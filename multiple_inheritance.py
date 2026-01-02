@@ -19,6 +19,7 @@ class Fortuner(Car, ToyotaCar):
     print(self.number_of_seats)
     print(self.color)
 
+
 t1 = Fortuner("BLACK")
 t1.get("TOYOTA Fortuner", 5)
 t1.display()

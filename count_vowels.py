@@ -6,6 +6,7 @@ def count_vowels(str):
     if str[i]=='a' or str[i]=='e' or str[i]=='i' or str[i]=='o' or str[i]=='u' :
       count += 1
 
+
   return count
 
 string = "Alaioue"

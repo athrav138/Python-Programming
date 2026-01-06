@@ -8,7 +8,6 @@ def count_vowels(str):
 
   return count
 
-
 string = "Alaioue"
 
 print("The number of vowels in {string} is: ",count_vowels(string))

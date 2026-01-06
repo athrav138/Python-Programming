@@ -1,5 +1,4 @@
 # Changing the value of class variable
-
 class Num:
     a = 10
 

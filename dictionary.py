@@ -11,7 +11,6 @@ print(student_marks)
 student_marks["Atharv"] = 95.88
 print(student_marks["Atharv"])
 """
-
 # methods on the dictionary
 
 # prints the all items in the dictionary

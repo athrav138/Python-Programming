@@ -15,7 +15,6 @@ class Fortuner(ToyotaCar):
     print(self.number_of_seats)
     print(self.color)
 
-
 t1 = Fortuner("BLACK")
 t1.get("TOYOTA FOrtuner",5)
 t1.display()

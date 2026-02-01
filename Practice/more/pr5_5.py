@@ -7,8 +7,4 @@ while num!= 0 :
     rev = rev * 10 + rem
     num //= 10
 
-
-if temp==rev :
-    print(f"{temp} is the palindrome number")
-else :
-    print(f"{temp} is the not palindrome number")
+print(rev)

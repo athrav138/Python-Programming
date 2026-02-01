@@ -1,6 +1,10 @@
-str = input("Enter string: ")
+str = "ABA"
 
-if str == str[::-1]:
-    print("Palindrome")
+rev = str[::-1]
+
+if str==rev :
+    print("palindrome")
 else :
-    print("NOt palindrome")
+    print("Not palindrome")
+
+print()

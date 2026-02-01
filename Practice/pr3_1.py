@@ -1,12 +1,32 @@
-# Write a program to check the largest number among the three numbers 
+a = 10
+b = 3
+print(a + b)
+print(a - b)
+print(a * b)
+print(a /b)
+print(a% b)
 
-n1 = int(input("ENter first number: "))
-n2 = int(input("ENter second number: "))
-n3 = int(input("ENter third number: "))
+print(a > b)
+print(a < b)
+print(a == b)
+print(a != b)
 
-if(n1>n2 and n1>n3):
-    print(f"n1 = {n1} is largest")
-elif(n2>n1 and n2>n3):
-    print(f"n2 = {n2} is largest")
-else:
-    print(f"n3 = {n3} is largest")
+print(a> 5 and b< 5)
+print(a > 5 or b > 5)
+print(not(a > b))
+
+print(a& b)
+print(a | b)
+print(a ^ b)
+print(a << 1)
+print(a >> 1)
+
+c = 5
+c += 2
+print(c)
+c -= 1
+print(c)
+c *= 3
+print(c)
+c /= 2
+print(c )

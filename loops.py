@@ -1,14 +1,8 @@
 
-n = 10
+for i in range(1,11,1):
+    print("Hello")
 
-i =1
-# Using a while loop
-while i <= n:
-  print(i)
-  i += 1
-
-# Using a for loop
-for i in range(1,n):
-  print(i)
-
-
+i = 1
+while i<= 10:
+    print(i)
+    i += 1

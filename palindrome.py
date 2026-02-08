@@ -1,9 +1,10 @@
-def check_palindrome(string):
-  if string==string[::-1]:
-    print(f"THe {string} is Palindrome")
-  else :
-    print("THe {string} is not Palindrome")
+str = "ABA"
 
-str = "HeHe"
+rev = str[::-1]
 
-check_palindrome(str)
+if str==rev :
+    print("palindrome")
+else :
+    print("Not palindrome")
+
+print()
